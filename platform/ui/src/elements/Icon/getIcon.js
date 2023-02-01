@@ -40,6 +40,7 @@ import stop from './icons/stop.svg';
 import info from './icons/info.svg';
 import inlineEdit from './icons/inline-edit.svg';
 import level from './icons/level.svg';
+import length from './icons/ui-length.svg';
 import link from './icons/link.svg';
 import linkCircles from './icons/link-circles.svg';
 import list from './icons/list.svg';
@@ -53,6 +54,7 @@ import measureTargetCr from './icons/measure-target-cr.svg';
 import measureTargetNe from './icons/measure-target-ne.svg';
 import measureTargetUn from './icons/measure-target-un.svg';
 import measureTemp from './icons/measure-temp.svg';
+import more from './icons/more.svg';
 import objectGroup from './icons/object-group.svg';
 import ohifLogo from './icons/ohif-logo.svg';
 import ohifTextLogo from './icons/ohif-text-logo.svg';
@@ -61,6 +63,7 @@ import palette from './icons/palette.svg';
 import play from './icons/play.svg';
 import plus from './icons/plus.svg';
 import powerOff from './icons/power-off.svg';
+import reporting from './icons/reporting-panel.svg';
 import reset from './icons/reset.svg';
 import rotate from './icons/rotate.svg';
 import rotateRight from './icons/rotate-right.svg';
@@ -68,6 +71,7 @@ import saveRegular from './icons/save-regular.svg';
 import scissors from './icons/scissors.svg';
 import search from './icons/search.svg';
 import searchPlus from './icons/search-plus.svg';
+import settings from './icons/settings.svg';
 import softTissue from './icons/soft-tissue.svg';
 import sort from './icons/sort.svg';
 import sortDown from './icons/sort-down.svg';
@@ -136,6 +140,7 @@ const ICONS = {
   'ohif-text-logo': ohifTextLogo,
   lock,
   play,
+  reporting,
   database,
   cog,
   'circle-notch': circleNotch,
@@ -150,6 +155,7 @@ const ICONS = {
   'th-list': thList,
   sun,
   palette,
+  more,
   youtube,
   oval,
   'ellipse-h': ellipseH,
@@ -168,6 +174,7 @@ const ICONS = {
   arrows,
   reset,
   rotate,
+  settings,
   'rotate-right': rotateRight,
   trash,
   unlink,

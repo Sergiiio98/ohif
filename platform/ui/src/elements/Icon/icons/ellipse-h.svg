@@ -1,11 +1,6 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 22 28"
-  aria-labelledby="title"
-  width="1em"
-  height="1em"
-  fill="currentColor"
->
-  <title id="title">Ellipse Horizontal</title>
-  <path d="M6 11.5v3c0 0.828-0.672 1.5-1.5 1.5h-3c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h3c0.828 0 1.5 0.672 1.5 1.5zM14 11.5v3c0 0.828-0.672 1.5-1.5 1.5h-3c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h3c0.828 0 1.5 0.672 1.5 1.5zM22 11.5v3c0 0.828-0.672 1.5-1.5 1.5h-3c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h3c0.828 0 1.5 0.672 1.5 1.5z" />
+<svg width="36" height="32" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">Ellipse Horizontal</title>
+<path d="M17.7754 0.902344V31.872" stroke="currentColor"/>
+<path d="M11.8551 5.91211H3.37988C2.27531 5.91211 1.37988 6.80754 1.37988 7.91211V25.0899C1.37988 26.1945 2.27531 27.0899 3.37988 27.0899H11.8551" stroke="currentColor"/>
+<path d="M24.7016 27.0901L33.1768 27.0901C34.2813 27.0901 35.1768 26.1947 35.1768 25.0901L35.1768 7.91227C35.1768 6.8077 34.2813 5.91227 33.1768 5.91227L24.7016 5.91227" stroke="currentColor" stroke-dasharray="2 2"/>
 </svg>

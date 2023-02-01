@@ -1,9 +1,12 @@
 .toolbar-button
-  height: 48px;
+  height: 44px;
+  position: relative;
+  display: inline-block;
+  margin-top: 2px;
+  margin-bottom: 2px;
   color: var(--default-color);
   float: left;
-  text-align: center;
-  padding: 0 10px;
+  padding: 10px 10px 10px 10px;
   cursor: pointer;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -11,6 +14,8 @@
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Chrome and Opera */
+
+
 
   .toolbar-button-label
     font-size: 12px;
@@ -27,7 +32,58 @@
     margin: 2px;
 
   &:hover
-    color: var(--hover-color);
+    background-color: #D9D9D9;
+    border-radius: 5px;
 
   &.active, &:active
-    color: var(--active-color);
+    background-color: #D9D9D9;
+    border-radius: 5px;
+
+
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  z-index: 2;
+  width: fit-content;
+  color: #2f80ed;
+  white-space: nowrap;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1.5px solid #2f80ed;
+  background-color: #D9D9D9;
+  padding: 1.5px 8px 1.5px 8px;
+}
+
+.tooltip-text::before {
+  content: "";
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: #2f80ed;
+  z-index: 1;
+}
+
+.hover-text:hover .tooltip-text {
+  visibility: visible;
+}
+
+#bottom {
+  top: 50px;
+  left: 0px;
+}
+
+#bottom::before {
+  top: -5%;
+}
+
+.arrow-up {
+  width: 10px;
+  height: 0;
+  position: absolute;
+  bottom: 21px;
+  left: 20%;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #2f80ed;
+  z-index: 1000;
+}

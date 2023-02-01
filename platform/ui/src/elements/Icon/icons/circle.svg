@@ -1,11 +1,6 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 512 512"
-  aria-labelledby="title"
-  width="1em"
-  height="1em"
-  fill="currentColor"
->
-  <title id="title">Circle</title>
-  <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">Circle</title>
+<path d="M23.5518 23.7246L34.3955 33.7179" stroke="black" stroke-linecap="round"/>
+<circle cx="13.9826" cy="14.3415" r="13.3215" stroke="black"/>
+<path d="M20.3461 12.8023V14.2535H7.5293V12.8023H20.3461ZM14.6569 6.83057V20.4436H13.1158V6.83057H14.6569Z" fill="black"/>
 </svg>

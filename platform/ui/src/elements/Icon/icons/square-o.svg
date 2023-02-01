@@ -1,11 +1,5 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 448 512"
-  aria-labelledby="title"
-  width="1em"
-  height="1em"
-  fill="currentColor"
->
-  <title id="title">Square Outline</title>
-  <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V86c0-3.3 2.7-6 6-6h340c3.3 0 6 2.7 6 6v340c0 3.3-2.7 6-6 6z" />
+<svg width="34" height="31" viewBox="0 0 34 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">Square Outline</title>
+<path d="M33.3588 22.8262V24.2774H20.542V22.8262H33.3588ZM27.6696 16.8545V30.4675H26.1285V16.8545H27.6696Z" fill="black"/>
+<path d="M14.348 23.6611H3.19727C2.0927 23.6611 1.19727 22.7657 1.19727 21.6611V3.01269C1.19727 1.90812 2.0927 1.0127 3.19727 1.0127H28.6037C29.7082 1.0127 30.6037 1.90813 30.6037 3.0127V11.0584" stroke="black"/>
 </svg>

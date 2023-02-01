@@ -110,9 +110,10 @@ class RoundedButtonGroup extends Component {
       const iconProps =
         typeof option.icon === 'string' ? { name: option.icon } : option.icon;
 
-      const bottomLabel = option.bottomLabel && (
-        <div className="bottomLabel">{option.bottomLabel}</div>
-      );
+      const bottomLabel =
+        option.bottomLabel &&
+        // <div className="bottomLabel">{option.bottomLabel}</div>
+        null;
 
       let badgeNumber = this.state.badgeNumbers[index];
       const badgeNumberOverflow = String(badgeNumber).length > 2;
@@ -128,7 +129,7 @@ class RoundedButtonGroup extends Component {
           className={className}
           onClick={() => this.onClickOption(option.value)}
         >
-          <div className="roundedButton">
+          <div style={{ display: 'flex', alignItems: 'center' }}>
             {optionText}
             {badgeNumber && (
               <div className="badgeNumber-container">

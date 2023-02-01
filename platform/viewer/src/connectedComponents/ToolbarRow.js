@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 import { MODULE_TYPES } from '@ohif/core';
 import {
@@ -9,8 +10,14 @@ import {
   ToolbarButton,
   withModal,
   withDialog,
+  Dropdown,
+  AboutContent,
 } from '@ohif/ui';
+import { UserPreferences } from './../../../viewer/src/components/UserPreferences/UserPreferences';
+import Icon from '../../../ui/src/elements/Icon/icons/settings.svg';
+import Icon2 from '../../../ui/src/elements/Icon/icons/chevron-left.svg';
 
+import { useTranslation } from 'react-i18next';
 import './ToolbarRow.css';
 import { commandsManager, extensionManager } from './../App.js';
 
@@ -41,6 +48,9 @@ class ToolbarRow extends Component {
 
   constructor(props) {
     super(props);
+    const {
+      modal: { show },
+    } = props;
 
     const toolbarButtonDefinitions = _getVisibleToolbarButtons.call(this);
     // TODO:
@@ -215,6 +225,23 @@ class ToolbarRow extends Component {
     return (
       <>
         <div className="ToolbarRow">
+          <Link
+            to={'/'}
+            className="toolbar-button"
+            style={{
+              color: 'black',
+              display: 'flex',
+              alignItems: 'center',
+              marginRight: '200px',
+            }}
+          >
+            <Icon2
+              style={{ width: '8px', height: '12px' }}
+              name="shevronLeft"
+              width="8px"
+              height="12px"
+            />
+          </Link>
           <div className="pull-left m-t-1 p-y-1" style={{ padding: '10px' }}>
             <RoundedButtonGroup
               options={this.buttonGroups.left}
@@ -224,10 +251,7 @@ class ToolbarRow extends Component {
           </div>
           {buttonComponents}
           <ConnectedLayoutButton />
-          <div
-            className="pull-right m-t-1 rm-x-1"
-            style={{ marginLeft: 'auto' }}
-          >
+          <div className="pull-right m-t-1 rm-x-1 toolbar-button">
             {this.buttonGroups.right.length && (
               <RoundedButtonGroup
                 options={this.buttonGroups.right}
@@ -235,6 +259,34 @@ class ToolbarRow extends Component {
                 onValueChanged={onPressRight}
               />
             )}
+          </div>
+          <div>
+            <Dropdown
+              title={<Icon name="settings" width="46px" height="21px" />}
+              list={[
+                {
+                  title: 'About',
+                  icon: { name: 'info' },
+                  onClick: () =>
+                    this.props.modal.show({
+                      content: AboutContent,
+                      title: this.props.t('OHIF Viewer - About'),
+                    }),
+                },
+                {
+                  title: 'Preferences',
+                  icon: {
+                    name: 'user',
+                  },
+                  onClick: () =>
+                    this.props.modal.show({
+                      content: UserPreferences,
+                      title: this.props.t('User Preferences'),
+                    }),
+                },
+              ]}
+              align="right"
+            />
           </div>
         </div>
       </>

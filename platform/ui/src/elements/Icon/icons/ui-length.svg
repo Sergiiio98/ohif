@@ -1,0 +1,13 @@
+<svg width="29" height="29" viewBox="0 0 29 29" fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-labelledby="title"
+ xmlns="http://www.w3.org/2000/svg">
+<title id="title">Measure Temp</title>
+<path d="M15.6846 6.81689L18.769 9.90217" stroke="black" stroke-linecap="round"/>
+<path d="M9.54199 12.9441L12.6265 16.0294" stroke="black" stroke-linecap="round"/>
+<path d="M3.80664 19.071L6.8911 22.1563" stroke="black" stroke-linecap="round"/>
+<path d="M18.3789 3.7749L20.4206 5.817" stroke="black" stroke-linecap="round"/>
+<path d="M12.2383 9.9021L14.28 11.9442" stroke="black" stroke-linecap="round"/>
+<path d="M6.50293 16.0293L8.54462 18.0714" stroke="black" stroke-linecap="round"/>
+<rect x="0.576238" y="21.3572" width="29.4791" height="9.38021" rx="0.5" transform="rotate(-45.2916 0.576238 21.3572)" stroke="black"/>
+</svg>

@@ -1,13 +1,8 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 18 18"
-  aria-labelledby="title"
-  width="1em"
-  height="1em"
-  fill="currentColor"
-  stroke="currentColor"
->
+
+
+<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
   <title id="title">Level</title>
-  <path d="M14.5,3.5 a1 1 0 0 1 -11,11 Z" stroke="none" opacity="0.8" />
-  <circle cx="9" cy="9" r="8" fill="none" stroke-width="2" />
+
+<circle cx="16.2781" cy="16.0008" r="15.3318" stroke="currentColor"/>
+<path d="M26.7839 4.15674C29.9251 6.94302 31.8308 10.863 32.0818 15.0544C32.3328 19.2457 30.9084 23.3651 28.1222 26.5063C25.3359 29.6475 21.4159 31.5532 17.2245 31.8042C13.0332 32.0551 8.9138 30.6308 5.77261 27.8445L16.2783 16.0006L26.7839 4.15674Z" fill="currentColor"/>
 </svg>

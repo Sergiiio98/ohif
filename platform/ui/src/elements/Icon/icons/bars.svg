@@ -1,11 +1,6 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 1792 1792"
-  aria-labelledby="title"
-  width="1em"
-  height="1em"
-  fill="currentColor"
->
-  <title id="title">Bars</title>
-  <path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z" />
+<svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">Bars</title>
+<rect x="1.49609" y="10.5032" width="22.6829" height="24.0489" rx="1.5" stroke="black"/>
+<path d="M4.86816 5.56274H26.7794C27.884 5.56274 28.7794 6.45817 28.7794 7.56274V29.3591" stroke="black"/>
+<path d="M9.65039 0.666992H31.5616C32.6662 0.666992 33.5616 1.56242 33.5616 2.66699V24.4634" stroke="black"/>
 </svg>

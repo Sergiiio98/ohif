@@ -13,6 +13,10 @@
   display: inline-block;
 }
 
+.dd-menu-toggle :hover {
+  border-radius: 5px;
+}
+
 .dd-caret-down {
   display: inline-block;
   width: 0;
@@ -69,11 +73,12 @@
   color: var(--text-color-active);
   padding: 10px 15px;
   border-bottom: 1px solid #ccc;
+  cursor: pointer;
 }
 
 .dd-item:hover {
   text-decoration: none;
-  background: #eee;
+  background: #D9D9D9;
 }
 
 .dd-item:last-child {

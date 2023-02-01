@@ -23,7 +23,12 @@ const mapStateToProps = state => {
     defaultPlugin = viewportModules[0].extensionId;
   }
 
-  const { numRows, numColumns, layout, activeViewportIndex } = state.viewports;
+  const {
+    numRows = 2,
+    numColumns = 2,
+    layout,
+    activeViewportIndex,
+  } = state.viewports;
 
   return {
     numRows,
@@ -37,9 +42,6 @@ const mapStateToProps = state => {
   };
 };
 
-const ConnectedViewportGrid = connect(
-  mapStateToProps,
-  null
-)(ViewportGrid);
+const ConnectedViewportGrid = connect(mapStateToProps, null)(ViewportGrid);
 
 export default ConnectedViewportGrid;

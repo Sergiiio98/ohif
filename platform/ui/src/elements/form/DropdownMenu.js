@@ -97,7 +97,7 @@ class DropdownMenu extends Component {
     return (
       <React.Fragment>
         <span className="dd-title">{title}</span>
-        <span className="dd-caret-down" />
+        {/* <span className="dd-caret-down" /> */}
       </React.Fragment>
     );
   };
@@ -124,6 +124,9 @@ class DropdownMenu extends Component {
         className="dd-menu"
         data-cy="options-menu"
         ref={node => (this.node = node)}
+        style={{
+          marginTop: '5px',
+        }}
       >
         <div className="dd-menu-toggle" onClick={this.toggleList}>
           {this.renderTitleElement()}

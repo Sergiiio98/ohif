@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Dropdown, AboutContent, withModal } from '@ohif/ui';
-//
+import Icon from '../../../../ui/src/elements/Icon/icons/settings.svg';
 import { UserPreferences } from './../UserPreferences';
 import OHIFLogo from '../OHIFLogo/OHIFLogo.js';
 import './Header.css';
@@ -93,7 +93,11 @@ function Header(props) {
 
         <div className="header-menu">
           <span className="research-use">{t('INVESTIGATIONAL USE ONLY')}</span>
-          <Dropdown title={t('Options')} list={options} align="right" />
+          <Dropdown
+            title={<Icon name="settings" width="28px" height="28px" />}
+            list={options}
+            align="right"
+          />
         </div>
       </div>
     </>
